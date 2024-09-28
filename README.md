@@ -30,29 +30,24 @@ Calculate cosine similarity between books based on these vectors.
 Save the resulting similarity matrix as a sparse matrix to reduce memory consumption.
 Run the script:
 
-bash
-Copy code
 python recommender.py
+
 2. Streamlit Application
 The Streamlit app provides a user-friendly interface to explore book recommendations.
-
 Key Components:
 
 Users select a book from a dropdown menu.
 The system retrieves similar books using the precomputed similarity matrix.
 Displays book covers and links using the OpenLibrary API.
 Run the app:
-
-bash
-Copy code
 streamlit run app.py
+
 3. Dependencies
 Install the required dependencies using the following command:
 
-bash
-Copy code
 pip install -r requirements.txt
-4. Using the App
+
+5. Using the App
 Once the Streamlit app is running, follow these steps:
 
 Select a book from the dropdown menu.
